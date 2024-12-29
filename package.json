@@ -1,21 +1,19 @@
 {
-  "name": "gsmarena-api",
-  "version": "2.0.6",
-  "description": "Parse GSMArena and then return as JSON",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/grant07/gsmarena-api.git"
+  "name": "node-starter",
+  "private": true,
+  "scripts": {
+    "test": "vitest",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
   },
-  "scripts": {},
-  "keywords": [
-    "gsmarena",
-    "api"
-  ],
-  "author": "Grant Mosha (grant3447@gmail.com)",
-  "license": "MIT",
   "dependencies": {
-    "axios": "^1.7.9",
-    "cheerio": "^1.0.0"
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.2",
+    "ts-node": "^10.9.1",
+    "vitest": "^0.34.6"
   }
 }
